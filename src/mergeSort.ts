@@ -40,7 +40,7 @@ export class MergeSort implements Strategy {
    * @param right  Right array
    * @returns  Merged array
    */
-   merge(left:number[], right:number[]):number[]{
+  private merge(left:number[], right:number[]):number[]{
     const array:number[] = [];
     let lIndex=0;
     let rIndex=0;
